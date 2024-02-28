@@ -37,7 +37,7 @@ const beers = [
         beerPrice: "124",
         beerTegs: ['Гіркий', 'Ігристе', 'Солодке'],
         beerVolume: "0,44",
-        brewery: {brewery_nama:"Moersleutel"},
+        brewery: {brewery_nama:"Moersleutel", slug: "category"},
         description: "Розкрийте силу Citra. Цей подвійний IPA демонструє неймовірну універсальність хмелю Citra завдяки використанню п’яти різних продуктів хмелю. Швидка математика підкаже нам, що це пиво насправді має називатися Citra x35, але пивоварам це було заборонено.",
         hops: "DIPA with Citra",
         id: "4",
@@ -95,7 +95,7 @@ export const BeerList = () => {
                         name={product.nameBeer}
                         price={product.beerPrice}
                         currency={product.beerCurrency}
-                        brewery={product.brewery.brewery_id}
+                        brewery={product.brewery}
                         typeBeer={product.type_of_beer}
                         abv={product.beerAbv}
                         volume={product.beerVolume}

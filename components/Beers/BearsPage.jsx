@@ -20,7 +20,7 @@ const beer =
         beerPrice: "124",
         beerTegs: ['Гіркий', 'Ігристе', 'Солодке'],
         beerVolume: "0,44",
-        brewery: {brewery_name:"Moersleutel"},
+        brewery: {brewery_name:"Moersleutel", slug: "category"},
         description: "Розкрийте силу Citra. Цей подвійний IPA демонструє неймовірну універсальність хмелю Citra завдяки використанню п’яти різних продуктів хмелю. Швидка математика підкаже нам, що це пиво насправді має називатися Citra x35, але пивоварам це було заборонено.",
         hops: "DIPA with Citra",
         id: "4",
